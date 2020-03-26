@@ -10,4 +10,4 @@ def LED_P_Q(polynom):
 	for i in range(len(polynom) - 1, -1, -1):
 		if polynom[i]!=0:
 			return polynom[i]
-	return 0;
+	return 0
