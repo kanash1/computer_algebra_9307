@@ -41,7 +41,7 @@ class Natural:
         self.num = self.num[::-1]  # если последвательность цифр уже перевернута, то удалить
 
     # ADD_NN_N
-    def sum(self, other):
+    def __add__(self, other):
         self.num = self.num[::-1]  # если последвательность цифр уже перевернута, то удалить
         other.num = other.num[::-1]  # если последвательность цифр уже перевернута, то удалить
 
