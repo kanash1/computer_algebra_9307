@@ -23,9 +23,9 @@ class Natural:
     # NZER_N_B
     def isnZero(self):
         if self.pos == 0 and self.num[0] == 0:
-            return "нет"
+            return 0
         else:
-            return "да"
+            return 1
 
     # ADD_1N_N
     def addOne(self):
